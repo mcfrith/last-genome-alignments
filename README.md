@@ -20,9 +20,9 @@ Then, substitution and gap frequencies were determined:
     last-train -P0 --revsym --matsym --gapsym -E0.05 -C2 hg38-NEAR panTro5.fa > hg38-panTro5.mat
 
 * Human-chimp parameters:
-  [hg38-panTro5.mat](http://last.cbrc.jp/genome-alignments/hg38-panTro5.mat)
+  [hg38-panTro5.mat](https://drive.google.com/open?id=0Bw_yRzJW8ZA_MDNYR0ptQkYyZGc)
 * Human-gorilla parameters:
-  [hg38-gorGor5.mat](http://last.cbrc.jp/genome-alignments/hg38-gorGor5.mat)
+  [hg38-gorGor5.mat](https://drive.google.com/open?id=0Bw_yRzJW8ZA_Q3pIOTlVVjZ3bzA)
 
 Next, many-to-one ape-to-human alignments were made:
 
@@ -35,9 +35,9 @@ memory, so take care that multiple parallel runs don't exceed your
 memory.
 
 * Human-chimp many-to-one alignments:
-  [hg38-panTro5-1.maf.gz](http://last.cbrc.jp/genome-alignments/hg38-panTro5-1.maf.gz)
+  [hg38-panTro5-1.maf.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_dGNiOTBzU1NTcE0)
 * Human-gorilla many-to-one alignments:
-  [hg38-gorGor5-1.maf.gz](http://last.cbrc.jp/genome-alignments/hg38-panTro5-1.maf.gz)
+  [hg38-gorGor5-1.maf.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_SVNabUhiZmJiamM)
 
 Next, one-to-one ape-to-human alignments were made:
 
@@ -49,6 +49,11 @@ Next, one-to-one ape-to-human alignments were made:
 The awk command prepends the assembly name to each chromosome name
 (e.g. chr7 -> hg38.chr7).
 
+* Human-chimp one-to-one alignments:
+  [hg38-panTro5-2.maf.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_aGNZWUdBLUFLNWs)
+* Human-gorilla one-to-one alignments:
+  [hg38-gorGor5-2.maf.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_VXVIdk8ycm5GZFk)
+
 Finally, simple-sequence alignments were discarded, the alignments
 were converted to tabular format, and alignments with error
 probability > 10^-5 were discarded:
@@ -58,14 +63,16 @@ probability > 10^-5 were discarded:
     awk -F'=' '$2 <= 1e-5' > hg38-panTro5.tab
 
 * Human-chimp tabular alignments:
-  [hg38-panTro5.tab.gz](http://last.cbrc.jp/genome-alignments/hg38-panTro5.tab.gz)
+  [hg38-panTro5.tab.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_bEFySHpLQ1BiMnc)
+  ([dotplot](https://drive.google.com/open?id=0Bw_yRzJW8ZA_Z21ZbGpXelo3Z0E))
 * Human-gorilla tabular alignments:
-  [hg38-gorGor5.tab.gz](http://last.cbrc.jp/genome-alignments/hg38-gorGor5.tab.gz)
+  [hg38-gorGor5.tab.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_V0Z2RkhncEZINzQ)
+  ([dotplot](https://drive.google.com/open?id=0Bw_yRzJW8ZA_eVU2a1RHM1VIdUE))
 
-## 2017 human-mammal parameters
+## 2017 human-mouse alignments
 
-Alignment parameters were determined for the human genome (hg38)
-versus mouse (mm10) and dog (canFam3).
+The human genome (hg38) was aligned to mouse (mm10).  This alignment
+recipe is even more accurate-but-slow.
 
 First, an "index" of the human genome was prepared, suitable for
 comparing it to less-similar sequences:
@@ -77,6 +84,23 @@ Then, substitution and gap frequencies were determined:
     last-train -P0 --revsym --matsym --gapsym -E0.05 -C2 hg38-MAM4 mm10.fa > hg38-mm10.mat
 
 * Human-mouse parameters:
-  [hg38-mm10.mat](http://last.cbrc.jp/genome-alignments/hg38-mm10.mat)
+  [hg38-mm10.mat](https://drive.google.com/open?id=0Bw_yRzJW8ZA_WUxrcVZRSlZoWW8)
 * Human-dog parameters:
-  [hg38-canFam3.mat](http://last.cbrc.jp/genome-alignments/hg38-canFam3.mat)
+  [hg38-canFam3.mat](https://drive.google.com/open?id=0Bw_yRzJW8ZA_eG9TOEtMbWswVkU)
+
+Next, many-to-one mouse-to-human alignments were made:
+
+    lastal -m100 -E0.05 -C2 -p hg38-mm10.mat hg38-MAM4 mm10.fa | last-split -m1 > hg38-mm10-1.maf
+
+* Human-mouse many-to-one alignments:
+  [hg38-mm10-1.maf.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_bjRQVllSbmNVdHM)
+
+Finally, one-to-one MAF alignments, and high-confidence tabular
+alignments, were made in the same way as above.
+
+* Human-mouse one-to-one alignments:
+  [hg38-mm10-2.maf.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_ZVlna0lveGJKSmc)
+
+* Human-mouse tabular alignments:
+  [hg38-mm10.tab.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_V0RnVlk5NGtlR00)
+  ([dotplot](https://drive.google.com/open?id=0Bw_yRzJW8ZA_NmJWRF90Rm1wVm8))
