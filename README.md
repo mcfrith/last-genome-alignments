@@ -7,8 +7,9 @@ Here are some pair-wise genome alignments made with
 
 The human genome (hg38) was aligned to chimp (panTro5) and gorilla
 (gorGor5), as follows.  This alignment recipe is very
-accurate-but-slow.  A faster recipe would mask repeats during
-alignment, and/or omit `-m50`.
+accurate-but-slow.  A faster recipe would [mask repeats during
+alignment](https://github.com/mcfrith/last-rna/blob/master/last-long-reads.md),
+and/or omit `-m50`.
 
 First, an "index" of the human genome was prepared, suitable for
 comparing it to highly-similar sequences:
@@ -72,7 +73,7 @@ probability > 10^-5 were discarded:
 ## 2017 human-mouse alignments
 
 The human genome (hg38) was aligned to mouse (mm10).  This alignment
-recipe is even more accurate-but-slow.
+recipe is even more slow-and-sensitive.
 
 First, an "index" of the human genome was prepared, suitable for
 comparing it to less-similar sequences:
