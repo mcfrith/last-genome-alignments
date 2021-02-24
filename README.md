@@ -1,7 +1,17 @@
 # last-genome-alignments
 
 Here are some pair-wise genome alignments made with
-[LAST](http://last.cbrc.jp/).
+[LAST](https://gitlab.com/mcfrith/last).
+
+**Warning:** these recipes were for an older version of LAST.
+
+* For LAST version >= 1180, it's best to add option `-fMAF+` to the
+  first (many-to-one) `last-split`, as done
+  [here](https://gitlab.com/mcfrith/last/-/blob/main/doc/last-cookbook.rst).
+  (In older versions, `-fMAF+` was the default.)
+
+* Since LAST version 983, `last-split` option `-m1` has no effect and
+  can be omitted (because it's the default).
 
 ## 2017 human-ape alignments
 
