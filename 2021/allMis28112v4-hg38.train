@@ -1,0 +1,942 @@
+# lastal version: 1242
+# maximum percent identity: 100
+# scale of score parameters: 4.5512
+# scale used while training: 91.024
+
+# lastal -j7 -D1e9 -S1 -P32 -r5 -q5 -a15 -b3 allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 729883.9
+# deletes: 59867.51
+# inserts: 58546.635
+# delOpens: 26451.363
+# insOpens: 26354.218
+# alignments: 2175
+# mean delete size: 2.26331
+# mean insert size: 2.22153
+# matchProb: 0.929948
+# delOpenProb: 0.0337018
+# insOpenProb: 0.033578
+# delExtendProb: 0.558168
+# insExtendProb: 0.549859
+
+# substitution percent identity: 71.0287
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 309163.23      24958.94354    41290.113      35357.15096   
+# C 32456.18715    209262.36      23280.30021    54113.9009    
+# G 54113.9009     23280.30021    209262.36      32456.18715   
+# T 35357.15096    41290.113      24958.94354    309163.23     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.21179        0.0170979      0.0282855      0.0242211     
+# C 0.0222339      0.143354       0.015948       0.0370703     
+# G 0.0370703      0.015948       0.143354       0.0222339     
+# T 0.0242211      0.0282855      0.0170979      0.21179       
+
+# the integer-rounded scores are too inaccurate: doubling the scale
+# delExistCost: 665
+# insExistCost: 659
+# delExtendCost: 101
+# insExtendCost: 104
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A    158   -234   -142   -237
+# C   -207    199   -201   -114
+# G   -114   -201    199   -207
+# T   -237   -142   -234    158
+
+# lastal -j7 -D1e9 -S1 -P32 -t182.938 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 686380.6
+# deletes: 35683.472
+# inserts: 34739.83
+# delOpens: 14602.972
+# insOpens: 15761.088
+# alignments: 3255
+# mean delete size: 2.44358
+# mean insert size: 2.20415
+# matchProb: 0.953306
+# delOpenProb: 0.0202819
+# insOpenProb: 0.0218904
+# delExtendProb: 0.590764
+# insExtendProb: 0.546311
+
+# substitution percent identity: 72.2852
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 265038.15      17860.13738    40072.6111     22822.69151   
+# C 27836.96566    231090.24      19635.33506    61992.75527   
+# G 61992.75527    19635.33506    231090.24      27836.96566   
+# T 22822.69151    40072.6111     17860.13738    265038.15     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.193078       0.013011       0.0291926      0.0166262     
+# C 0.020279       0.168348       0.0143042      0.0451613     
+# G 0.0451613      0.0143042      0.168348       0.020279      
+# T 0.0166262      0.0291926      0.013011       0.193078      
+
+# delExistCost: 390
+# insExistCost: 367
+# delExtendCost: 46
+# insExtendCost: 53
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -138    -64   -134
+# C   -114     97   -128    -42
+# G    -42   -128     97   -114
+# T   -134    -64   -138     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.0407 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 618449.3
+# deletes: 23570.736
+# inserts: 22346.996
+# delOpens: 8538.612
+# insOpens: 9729.259
+# alignments: 2907
+# mean delete size: 2.76049
+# mean insert size: 2.29689
+# matchProb: 0.966893
+# delOpenProb: 0.0133494
+# insOpenProb: 0.0152109
+# delExtendProb: 0.637745
+# insExtendProb: 0.564628
+
+# substitution percent identity: 72.4762
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 249319.96      15315.64188    38007.06351    19628.79188   
+# C 24187.019892   198937.47      15070.748303   58022.6515    
+# G 58022.6515     15070.748303   198937.47      24187.019892  
+# T 19628.79188    38007.06351    15315.64188    249319.96     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.201556       0.0123815      0.0307257      0.0158683     
+# C 0.0195533      0.160825       0.0121835      0.0469068     
+# G 0.0469068      0.0121835      0.160825       0.0195533     
+# T 0.0158683      0.0307257      0.0123815      0.201556      
+
+# delExistCost: 445
+# insExistCost: 405
+# delExtendCost: 40
+# insExtendCost: 51
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -141    -58   -143
+# C   -116    101   -134    -36
+# G    -36   -134    101   -116
+# T   -143    -58   -141     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t92.0645 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 624546.8
+# deletes: 21504.301
+# inserts: 19610.916
+# delOpens: 6800.2249
+# insOpens: 8212.9997
+# alignments: 3022
+# mean delete size: 3.16229
+# mean insert size: 2.38779
+# matchProb: 0.971932
+# delOpenProb: 0.0105826
+# insOpenProb: 0.0127812
+# delExtendProb: 0.683774
+# insExtendProb: 0.581203
+
+# substitution percent identity: 72.2072
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248414.86      15619.314193   38941.23985    19404.911767  
+# C 24636.114305   202552.25      15185.9923806  59790.83017   
+# G 59790.83017    15185.9923806  202552.25      24636.114305  
+# T 19404.911767   38941.23985    15619.314193   248414.86     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.198877       0.0125045      0.0311757      0.0155352     
+# C 0.0197232      0.16216        0.0121576      0.0478675     
+# G 0.0478675      0.0121576      0.16216        0.0197232     
+# T 0.0155352      0.0311757      0.0125045      0.198877      
+
+# delExistCost: 485
+# insExistCost: 428
+# delExtendCost: 34
+# insExtendCost: 48
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -139    -56   -143
+# C   -115    100   -136    -34
+# G    -34   -136    100   -115
+# T   -143    -56   -139     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.646 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 600082.2
+# deletes: 19135.527
+# inserts: 17078.989
+# delOpens: 5435.7347
+# insOpens: 6770.2129
+# alignments: 2861
+# mean delete size: 3.52032
+# mean insert size: 2.52267
+# matchProb: 0.975505
+# delOpenProb: 0.00883644
+# insOpenProb: 0.0110058
+# delExtendProb: 0.715935
+# insExtendProb: 0.603594
+
+# substitution percent identity: 72.1508
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 240874.47      15080.213021   37814.84667    18716.443435  
+# C 23634.3729946  192105.72      14369.5053053  57508.74096   
+# G 57508.74096    14369.5053053  192105.72      23634.3729946 
+# T 18716.443435   37814.84667    15080.213021   240874.47     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.200694       0.0125647      0.0315069      0.0155943     
+# C 0.0196919      0.16006        0.0119725      0.0479156     
+# G 0.0479156      0.0119725      0.16006        0.0196919     
+# T 0.0155943      0.0315069      0.0125647      0.200694      
+
+# delExistCost: 515
+# insExistCost: 449
+# delExtendCost: 30
+# insExtendCost: 45
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -138    -55   -143
+# C   -115    101   -135    -34
+# G    -34   -135    101   -115
+# T   -143    -55   -138     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.9536 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 594065
+# deletes: 19455.081
+# inserts: 16674.949
+# delOpens: 5001.5329
+# insOpens: 6269.6369
+# alignments: 2805
+# mean delete size: 3.88982
+# mean insert size: 2.65964
+# matchProb: 0.976852
+# delOpenProb: 0.00822428
+# insOpenProb: 0.0103095
+# delExtendProb: 0.742919
+# insExtendProb: 0.624009
+
+# substitution percent identity: 72.0707
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 239005.79      15045.932634   37705.42283    18701.794743  
+# C 23349.0197126  189163.81      14365.2889949  56759.773094  
+# G 56759.773094   14365.2889949  189163.81      23349.0197126 
+# T 18701.794743   37705.42283    15045.932634   239005.79     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.201151       0.0126629      0.0317334      0.0157397     
+# C 0.0196509      0.159203       0.01209        0.0477698     
+# G 0.0477698      0.01209        0.159203       0.0196509     
+# T 0.0157397      0.0317334      0.0126629      0.201151      
+
+# delExistCost: 533
+# insExistCost: 463
+# delExtendCost: 27
+# insExtendCost: 42
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -138    -54   -143
+# C   -115    101   -134    -34
+# G    -34   -134    101   -115
+# T   -143    -54   -138     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.8543 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 593959
+# deletes: 20615.245
+# inserts: 16909.725
+# delOpens: 4839.6791
+# insOpens: 6064.0971
+# alignments: 2799
+# mean delete size: 4.25963
+# mean insert size: 2.7885
+# matchProb: 0.977448
+# delOpenProb: 0.00796442
+# insOpenProb: 0.00997938
+# delExtendProb: 0.765238
+# insExtendProb: 0.641384
+
+# substitution percent identity: 72.0354
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 239085.24      15072.863974   37824.82804    18715.409584  
+# C 23319.9472395  188779.52      14428.1379366  56738.458406  
+# G 56738.458406   14428.1379366  188779.52      23319.9472395 
+# T 18715.409584   37824.82804    15072.863974   239085.24     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.201262       0.0126884      0.031841       0.0157547     
+# C 0.0196308      0.158915       0.0121456      0.0477625     
+# G 0.0477625      0.0121456      0.158915       0.0196308     
+# T 0.0157547      0.031841       0.0126884      0.201262      
+
+# delExistCost: 548
+# insExistCost: 473
+# delExtendCost: 24
+# insExtendCost: 40
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -137    -54   -143
+# C   -115    101   -133    -34
+# G    -34   -133    101   -115
+# T   -143    -54   -137     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.807 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 597517.3
+# deletes: 26571.494
+# inserts: 17223.9568
+# delOpens: 4916.8832
+# insOpens: 5966.4232
+# alignments: 2780
+# mean delete size: 5.40413
+# mean insert size: 2.88681
+# matchProb: 0.977643
+# delOpenProb: 0.00804488
+# insOpenProb: 0.00976211
+# delExtendProb: 0.814956
+# insExtendProb: 0.653597
+
+# substitution percent identity: 71.9807
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 240812.97      15240.667959   38205.39664    18905.491712  
+# C 23456.2048931  189284.24      14570.7532656  57041.832053  
+# G 57041.832053   14570.7532656  189284.24      23456.2048931 
+# T 18905.491712   38205.39664    15240.667959   240812.97     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.201511       0.0127533      0.0319701      0.01582       
+# C 0.019628       0.158392       0.0121927      0.0477323     
+# G 0.0477323      0.0121927      0.158392       0.019628      
+# T 0.01582        0.0319701      0.0127533      0.201511      
+
+# delExistCost: 567
+# insExistCost: 480
+# delExtendCost: 20
+# insExtendCost: 38
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -137    -53   -143
+# C   -114    101   -132    -34
+# G    -34   -132    101   -114
+# T   -143    -53   -137     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.103 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 610511.1
+# deletes: 47928.249
+# inserts: 18394.483
+# delOpens: 5467.9477
+# insOpens: 6036.9639
+# alignments: 2705
+# mean delete size: 8.76531
+# mean insert size: 3.04698
+# matchProb: 0.977252
+# delOpenProb: 0.00875261
+# insOpenProb: 0.00966344
+# delExtendProb: 0.885914
+# insExtendProb: 0.671806
+
+# substitution percent identity: 71.7923
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 247490.2       15885.772964   39784.89443    19661.254242  
+# C 23896.921975   190812.54      14929.676388   58054.004761  
+# G 58054.004761   14929.676388   190812.54      23896.921975  
+# T 19661.254242   39784.89443    15885.772964   247490.2      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.20269        0.0130101      0.032583       0.0161022     
+# C 0.0195711      0.156272       0.0122271      0.0475451     
+# G 0.0475451      0.0122271      0.156272       0.0195711     
+# T 0.0161022      0.032583       0.0130101      0.20269       
+
+# delExistCost: 559
+# insExistCost: 488
+# delExtendCost: 20
+# insExtendCost: 36
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -136    -52   -142
+# C   -114    101   -131    -33
+# G    -33   -131    101   -114
+# T   -142    -52   -136     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.7959 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 613202.7
+# deletes: 48539.716
+# inserts: 18702.942
+# delOpens: 5623.8577
+# insOpens: 5958.4788
+# alignments: 2720
+# mean delete size: 8.63104
+# mean insert size: 3.13888
+# matchProb: 0.977206
+# delOpenProb: 0.00896224
+# insOpenProb: 0.00949549
+# delExtendProb: 0.884139
+# insExtendProb: 0.681415
+
+# substitution percent identity: 71.7491
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248113.48      15995.797822   40035.58821    19771.838806  
+# C 23958.727581   191863.3       15042.972502   58434.359743  
+# G 58434.359743   15042.972502   191863.3       23958.727581  
+# T 19771.838806   40035.58821    15995.797822   248113.48     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.202305       0.0130425      0.0326439      0.0161214     
+# C 0.0195353      0.15644        0.0122656      0.0476458     
+# G 0.0476458      0.0122656      0.15644        0.0195353     
+# T 0.0161214      0.0326439      0.0130425      0.202305      
+
+# delExistCost: 557
+# insExistCost: 494
+# delExtendCost: 20
+# insExtendCost: 34
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -114    101   -131    -33
+# G    -33   -131    101   -114
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.9205 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 617776
+# deletes: 49793.959
+# inserts: 19514.416
+# delOpens: 5765.4827
+# insOpens: 6026.8436
+# alignments: 2753
+# mean delete size: 8.63656
+# mean insert size: 3.23792
+# matchProb: 0.976995
+# delOpenProb: 0.00911795
+# insOpenProb: 0.00953128
+# delExtendProb: 0.884213
+# insExtendProb: 0.691159
+
+# substitution percent identity: 71.7456
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 249579.55      16159.607349   40272.09921    19854.869898  
+# C 24083.306367   193659.55      15232.067551   58952.07635   
+# G 58952.07635    15232.067551   193659.55      24083.306367  
+# T 19854.869898   40272.09921    16159.607349   249579.55     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.201993       0.0130785      0.0325935      0.0160692     
+# C 0.0194914      0.156735       0.0123278      0.0477118     
+# G 0.0477118      0.0123278      0.156735       0.0194914     
+# T 0.0160692      0.0325935      0.0130785      0.201993      
+
+# delExistCost: 555
+# insExistCost: 497
+# delExtendCost: 20
+# insExtendCost: 33
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -131    -33
+# G    -33   -131    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.8694 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 614223.8
+# deletes: 49829.658
+# inserts: 19719.366
+# delOpens: 5788.6274
+# insOpens: 5964.4563
+# alignments: 2720
+# mean delete size: 8.6082
+# mean insert size: 3.30615
+# matchProb: 0.976978
+# delOpenProb: 0.00920733
+# insOpenProb: 0.009487
+# delExtendProb: 0.883832
+# insExtendProb: 0.697533
+
+# substitution percent identity: 71.7699
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248647.86      16071.165984   40097.2061     19769.214399  
+# C 23851.328016   192188.24      15121.313126   58489.40268   
+# G 58489.40268    15121.313126   192188.24      23851.328016  
+# T 19769.214399   40097.2061     16071.165984   248647.86     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.202404       0.0130822      0.0326399      0.0160925     
+# C 0.0194155      0.156445       0.012309       0.0476115     
+# G 0.0476115      0.012309       0.156445       0.0194155     
+# T 0.0160925      0.0326399      0.0130822      0.202404      
+
+# delExistCost: 554
+# insExistCost: 501
+# delExtendCost: 20
+# insExtendCost: 32
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -130    -33
+# G    -33   -130    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.944 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 614674
+# deletes: 50686.765
+# inserts: 20188.733
+# delOpens: 5862.1726
+# insOpens: 5947.6132
+# alignments: 2710
+# mean delete size: 8.64641
+# mean insert size: 3.39443
+# matchProb: 0.976922
+# delOpenProb: 0.00931694
+# insOpenProb: 0.00945274
+# delExtendProb: 0.884345
+# insExtendProb: 0.705399
+
+# substitution percent identity: 71.7485
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248972.02      16092.120785   40148.89162    19803.867046  
+# C 23853.174478   192060.6       15198.686299   58562.73169   
+# G 58562.73169    15198.686299   192060.6       23853.174478  
+# T 19803.867046   40148.89162    16092.120785   248972.02     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.202518       0.0130896      0.0326577      0.0161088     
+# C 0.0194025      0.156225       0.0123628      0.0476358     
+# G 0.0476358      0.0123628      0.156225       0.0194025     
+# T 0.0161088      0.0326577      0.0130896      0.202518      
+
+# delExistCost: 553
+# insExistCost: 504
+# delExtendCost: 20
+# insExtendCost: 31
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -130    -33
+# G    -33   -130    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.9806 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 614285
+# deletes: 51069.907
+# inserts: 20743.642
+# delOpens: 5911.3537
+# insOpens: 5943.1859
+# alignments: 2699
+# mean delete size: 8.63929
+# mean insert size: 3.49032
+# matchProb: 0.976855
+# delOpenProb: 0.00940042
+# insOpenProb: 0.00945104
+# delExtendProb: 0.88425
+# insExtendProb: 0.713494
+
+# substitution percent identity: 71.7419
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248956.58      16087.086114   40155.08308    19808.63112   
+# C 23824.012819   191735.1       15190.623191   58516.89161   
+# G 58516.89161    15190.623191   191735.1       23824.012819  
+# T 19808.63112    40155.08308    16087.086114   248956.58     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.202643       0.0130944      0.032685       0.0161236     
+# C 0.019392       0.156066       0.0123647      0.0476309     
+# G 0.0476309      0.0123647      0.156066       0.019392      
+# T 0.0161236      0.032685       0.0130944      0.202643      
+
+# delExistCost: 552
+# insExistCost: 508
+# delExtendCost: 20
+# insExtendCost: 30
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -130    -33
+# G    -33   -130    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.9936 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 614319.2
+# deletes: 51404.66
+# inserts: 21079.247
+# delOpens: 5957.9606
+# insOpens: 5919.3097
+# alignments: 2695
+# mean delete size: 8.6279
+# mean insert size: 3.5611
+# matchProb: 0.976827
+# delOpenProb: 0.00947373
+# insOpenProb: 0.00941228
+# delExtendProb: 0.884097
+# insExtendProb: 0.719188
+
+# substitution percent identity: 71.7396
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 249098.31      16100.997421   40184.62374    19812.27914   
+# C 23807.912444   191625.19      15200.368681   58507.95065   
+# G 58507.95065    15200.368681   191625.19      23807.912444  
+# T 19812.27914    40184.62374    16100.997421   249098.31     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.202737       0.0131044      0.0327057      0.0161249     
+# C 0.0193769      0.155961       0.0123713      0.0476187     
+# G 0.0476187      0.0123713      0.155961       0.0193769     
+# T 0.0161249      0.0327057      0.0131044      0.202737      
+
+# delExistCost: 552
+# insExistCost: 511
+# delExtendCost: 20
+# insExtendCost: 29
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -130    -33
+# G    -33   -130    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.0101 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 612348.9
+# deletes: 51526.641
+# inserts: 21435.495
+# delOpens: 5966.5241
+# insOpens: 5896.6876
+# alignments: 2672
+# mean delete size: 8.63596
+# mean insert size: 3.63518
+# matchProb: 0.976812
+# delOpenProb: 0.00951773
+# insOpenProb: 0.00940633
+# delExtendProb: 0.884205
+# insExtendProb: 0.72491
+
+# substitution percent identity: 71.7471
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248627.1       16055.256632   40105.29518    19784.507281  
+# C 23686.347647   190714.5       15151.175767   58223.23975   
+# G 58223.23975    15151.175767   190714.5       23686.347647  
+# T 19784.507281   40105.29518    16055.256632   248627.1      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.203011       0.0131096      0.0327472      0.0161546     
+# C 0.0193406      0.155724       0.0123714      0.047541      
+# G 0.047541       0.0123714      0.155724       0.0193406     
+# T 0.0161546      0.0327472      0.0131096      0.203011      
+
+# delExistCost: 551
+# insExistCost: 513
+# delExtendCost: 20
+# insExtendCost: 29
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -129    -33
+# G    -33   -129    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.0522 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 613445.7
+# deletes: 51965.19
+# inserts: 21370.371
+# delOpens: 6021.607
+# insOpens: 5859.1917
+# alignments: 2673
+# mean delete size: 8.62979
+# mean insert size: 3.64732
+# matchProb: 0.976824
+# delOpenProb: 0.00958854
+# insOpenProb: 0.00932992
+# delExtendProb: 0.884122
+# insExtendProb: 0.725826
+
+# substitution percent identity: 71.721
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248958.37      16106.11716    40187.66119    19816.028375  
+# C 23739.653996   191010.03      15273.496157   58352.57132   
+# G 58352.57132    15273.496157   191010.03      23739.653996  
+# T 19816.028375   40187.66119    16106.11716    248958.37     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.202919       0.0131276      0.0327558      0.0161515     
+# C 0.0193495      0.155687       0.012449       0.0475615     
+# G 0.0475615      0.012449       0.155687       0.0193495     
+# T 0.0161515      0.0327558      0.0131276      0.202919      
+
+# delExistCost: 551
+# insExistCost: 514
+# delExtendCost: 20
+# insExtendCost: 29
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -129    -33
+# G    -33   -129    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.0258 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 611818.3
+# deletes: 51721.442
+# inserts: 21223.185
+# delOpens: 5989.6554
+# insOpens: 5813.6345
+# alignments: 2664
+# mean delete size: 8.63513
+# mean insert size: 3.65059
+# matchProb: 0.976898
+# delOpenProb: 0.00956376
+# insOpenProb: 0.00928271
+# delExtendProb: 0.884194
+# insExtendProb: 0.726072
+
+# substitution percent identity: 71.7293
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248445.36      16065.032588   40095.53948    19775.85004   
+# C 23666.241777   190406.41      15194.936277   58167.57567   
+# G 58167.57567    15194.936277   190406.41      23666.241777  
+# T 19775.85004    40095.53948    16065.032588   248445.36     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.203039       0.013129       0.0327676      0.0161616     
+# C 0.0193409      0.155607       0.0124179      0.0475367     
+# G 0.0475367      0.0124179      0.155607       0.0193409     
+# T 0.0161616      0.0327676      0.013129       0.203039      
+
+# delExistCost: 551
+# insExistCost: 515
+# delExtendCost: 20
+# insExtendCost: 29
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -142
+# C   -115    101   -129    -33
+# G    -33   -129    101   -115
+# T   -142    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.9998 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 610047
+# deletes: 51591.722
+# inserts: 21081.008
+# delOpens: 5969.488
+# insOpens: 5756.6954
+# alignments: 2648
+# mean delete size: 8.64257
+# mean insert size: 3.662
+# matchProb: 0.976978
+# delOpenProb: 0.00956002
+# insOpenProb: 0.00921924
+# delExtendProb: 0.884294
+# insExtendProb: 0.726925
+
+# substitution percent identity: 71.7281
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248003.74      16031.470525   40019.03408    19734.881106  
+# C 23592.425788   189576.07      15126.224331   57969.83833   
+# G 57969.83833    15126.224331   189576.07      23592.425788  
+# T 19734.881106   40019.03408    16031.470525   248003.74     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.203264       0.0131394      0.0327996      0.0161747     
+# C 0.0193364      0.155377       0.0123975      0.0475121     
+# G 0.0475121      0.0123975      0.155377       0.0193364     
+# T 0.0161747      0.0327996      0.0131394      0.203264      
+
+# delExistCost: 551
+# insExistCost: 516
+# delExtendCost: 20
+# insExtendCost: 29
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -143
+# C   -115    101   -129    -33
+# G    -33   -129    101   -115
+# T   -143    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.8858 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 610983.8
+# deletes: 51073.776
+# inserts: 20936.29
+# delOpens: 5934.1414
+# insOpens: 5739.2405
+# alignments: 2674
+# mean delete size: 8.60677
+# mean insert size: 3.64792
+# matchProb: 0.977055
+# delOpenProb: 0.00948958
+# insOpenProb: 0.00917791
+# delExtendProb: 0.883812
+# insExtendProb: 0.725871
+
+# substitution percent identity: 71.7483
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 248008.88      16026.967273   39999.53037    19649.442805  
+# C 23641.056516   190388.51      15161.090607   58145.78493   
+# G 58145.78493    15161.090607   190388.51      23641.056516  
+# T 19649.442805   39999.53037    16026.967273   248008.88     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.202946       0.0131149      0.0327317      0.0160792     
+# C 0.0193455      0.155795       0.0124064      0.0475808     
+# G 0.0475808      0.0124064      0.155795       0.0193455     
+# T 0.0160792      0.0327317      0.0131149      0.202946      
+
+# delExistCost: 552
+# insExistCost: 516
+# delExtendCost: 20
+# insExtendCost: 29
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -143
+# C   -115    101   -129    -33
+# G    -33   -129    101   -115
+# T   -143    -52   -135     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.86 -p- allMis28112v4/last/allMis28112v4-uMAM8 /tmp/580439.1.all.q/tmpf0b1Yc
+
+# aligned letter pairs: 607080.8
+# deletes: 50860.04
+# inserts: 20782.46
+# delOpens: 5874.2296
+# insOpens: 5675.2814
+# alignments: 2639
+# mean delete size: 8.65816
+# mean insert size: 3.66193
+# matchProb: 0.97716
+# delOpenProb: 0.00945519
+# insOpenProb: 0.00913496
+# delExtendProb: 0.884502
+# insExtendProb: 0.72692
+
+# substitution percent identity: 71.755
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 246933.37      15926.846835   39788.94912    19564.199432  
+# C 23469.995342   188714.78      15025.93859    57708.59336   
+# G 57708.59336    15025.93859    188714.78      23469.995342  
+# T 19564.199432   39788.94912    15926.846835   246933.37     
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.20336        0.0131164      0.0327679      0.016112      
+# C 0.0193286      0.155415       0.0123745      0.0475255     
+# G 0.0475255      0.0123745      0.155415       0.0193286     
+# T 0.016112       0.0327679      0.0131164      0.20336       
+
+# delExistCost: 552
+# insExistCost: 516
+# delExtendCost: 20
+# insExtendCost: 29
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -135    -52   -143
+# C   -115    101   -129    -33
+# G    -33   -129    101   -115
+# T   -143    -52   -135     88
+
+#last -t4.02279
+#last -a 28
+#last -A 26
+#last -b 1
+#last -B 1
+#last -S 1
+# score matrix (query letters = columns, reference letters = rows):
+       A      C      G      T
+A      4     -7     -3     -7
+C     -6      5     -6     -2
+G     -2     -6      5     -6
+T     -7     -3     -7      4

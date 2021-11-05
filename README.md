@@ -3,6 +3,44 @@
 Here are some pair-wise genome alignments made with
 [LAST](https://gitlab.com/mcfrith/last).
 
+## 2021 alignments
+
+The `2021` directory has various alignments of these genomes:
+
+| Genome name   | Animal     | Source   | Assembly name (if different) |
+|---------------|------------|----------|------------------------------|
+| allMis28112v4 | alligator  | [NCBI][] | ASM28112v4                   |
+| Bfl_VNyyK     | lancelet   | [NCBI][] |                              |
+| calMil1       | chimaera   | [UCSC][] |                              |
+| chrPic3.0.3   | turtle     | [NCBI][] | Chrysemys_picta_bellii-3.0.3 |
+| kPetMar1      | lamprey    | [NCBI][] | kPetMar1.pri                 |
+| latCha1       | coelacanth | [UCSC][] |                              |
+| lepOcu1       | gar        | [NCBI][] | LepOcu1                      |
+| xenTro10      | frog       | [NCBI][] | UCB_Xtro_10.0                |
+
+They can be replicated by running LAST version >= 1243 like this:
+
+    lastdb -P8 -uMAM8 myDB genome1.fa
+
+    last-train -P8 --revsym -D1e9 --sample-number=5000 myDB genome2.fa > my.train
+
+    lastal -P8 -D1e9 -m100 -p my.train myDB genome2.fa | last-split -fMAF+ > many-to-one.maf
+
+    last-split -r many-to-one.maf | last-postmask > out.maf
+
+* The `-P8` option makes it faster by using 8 threads: adjust as
+  appropriate for your computer.  This has no effect on the results.
+
+* The `-uMAM8` and `-m100` strive for high sensitivity, but make the
+  `lastal` command use much time and memory, e.g. several days and
+  hundreds of gigabytes.
+
+* You can use the `lastal -i` option to trade off multi-threading and
+  memory use (with no effect on results), see
+  [here](https://gitlab.com/mcfrith/last/-/blob/main/doc/last-parallel.rst).
+
+## 2017 alignments
+
 **Warning:** these recipes were for an older version of LAST.
 
 * For LAST version >= 1180, it's best to add option `-fMAF+` to the
@@ -115,3 +153,6 @@ alignments, were made in the same way as above.
 * Human-mouse tabular alignments:
   [hg38-mm10.tab.gz](https://drive.google.com/open?id=0Bw_yRzJW8ZA_V0RnVlk5NGtlR00)
   ([dotplot](https://drive.google.com/open?id=0Bw_yRzJW8ZA_NmJWRF90Rm1wVm8))
+
+[NCBI]: https://www.ncbi.nlm.nih.gov/genome
+[UCSC]: https://genome.ucsc.edu/

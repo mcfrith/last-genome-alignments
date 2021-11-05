@@ -1,0 +1,1073 @@
+# lastal version: 1242
+# maximum percent identity: 100
+# scale of score parameters: 4.5512
+# scale used while training: 91.024
+
+# lastal -j7 -D1e9 -S1 -P32 -r5 -q5 -a15 -b3 lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 213026.1
+# deletes: 18970.694
+# inserts: 19203.838
+# delOpens: 8433.331
+# insOpens: 8556.983
+# alignments: 684
+# mean delete size: 2.24949
+# mean insert size: 2.24423
+# matchProb: 0.923384
+# delOpenProb: 0.0365552
+# insOpenProb: 0.0370912
+# delExtendProb: 0.555455
+# insExtendProb: 0.554413
+
+# substitution percent identity: 69.7761
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 84103.83       8984.64219     12345.047      11660.4354    
+# C 9273.55082     64540.6        8289.087       13833.52188   
+# G 13833.52188    8289.087       64540.6        9273.55082    
+# T 11660.4354     12345.047      8984.64219     84103.83      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.197398       0.0210877      0.0289748      0.027368      
+# C 0.0217658      0.151482       0.0194551      0.0324684     
+# G 0.0324684      0.0194551      0.151482       0.0217658     
+# T 0.027368       0.0289748      0.0210877      0.197398      
+
+# delExistCost: 324
+# insExistCost: 322
+# delExtendCost: 51
+# insExtendCost: 51
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     79   -103    -74   -101
+# C   -103     94    -92    -67
+# G    -67    -92     94   -103
+# T   -101    -74   -103     79
+
+# lastal -j7 -D1e9 -S1 -P32 -t93.1328 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 133095.6
+# deletes: 7435.654
+# inserts: 7339.116
+# delOpens: 3119.434
+# insOpens: 3193.116
+# alignments: 676
+# mean delete size: 2.38365
+# mean insert size: 2.29842
+# matchProb: 0.950105
+# delOpenProb: 0.0222681
+# insOpenProb: 0.0227941
+# delExtendProb: 0.580476
+# insExtendProb: 0.564918
+
+# substitution percent identity: 72.683
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 47053.18       4104.79321     7235.5504      4411.1863     
+# C 4816.07636     49691.86       5317.3205      10475.5664    
+# G 10475.5664     5317.3205      49691.86       4816.07636    
+# T 4411.1863      7235.5504      4104.79321     47053.18      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.176751       0.0154193      0.0271798      0.0165703     
+# C 0.0180912      0.186663       0.0199741      0.0393506     
+# G 0.0393506      0.0199741      0.186663       0.0180912     
+# T 0.0165703      0.0271798      0.0154193      0.176751      
+
+# delExistCost: 377
+# insExistCost: 370
+# delExtendCost: 48
+# insExtendCost: 50
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     95   -126    -74   -120
+# C   -122     91   -113    -52
+# G    -52   -113     91   -122
+# T   -120    -74   -126     95
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.9322 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 131461.8
+# deletes: 5055.348
+# inserts: 4949.723
+# delOpens: 1885.942
+# insOpens: 1967.544
+# alignments: 678
+# mean delete size: 2.68054
+# mean insert size: 2.51569
+# matchProb: 0.966671
+# delOpenProb: 0.0138678
+# insOpenProb: 0.0144678
+# delExtendProb: 0.626941
+# insExtendProb: 0.602494
+
+# substitution percent identity: 72.78
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 49103.45       3881.76576     7642.24697     4320.31669    
+# C 4517.64817     46584.35       4674.37599     10751.25175   
+# G 10751.25175    4674.37599     46584.35       4517.64817    
+# T 4320.31669     7642.24697     3881.76576     49103.45      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.18674        0.0147623      0.0290634      0.0164301     
+# C 0.0171806      0.17716        0.0177766      0.0408869     
+# G 0.0408869      0.0177766      0.17716        0.0171806     
+# T 0.0164301      0.0290634      0.0147623      0.18674       
+
+# delExistCost: 437
+# insExistCost: 424
+# delExtendCost: 42
+# insExtendCost: 45
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     94   -129    -67   -127
+# C   -125     95   -114    -46
+# G    -46   -114     95   -125
+# T   -127    -67   -129     94
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.6717 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 120001.6
+# deletes: 3310.999
+# inserts: 3090.597
+# delOpens: 1063.6578
+# insOpens: 1105.9321
+# alignments: 657
+# mean delete size: 3.11284
+# mean insert size: 2.79456
+# matchProb: 0.976979
+# delOpenProb: 0.00865965
+# insOpenProb: 0.00900382
+# delExtendProb: 0.67875
+# insExtendProb: 0.642162
+
+# substitution percent identity: 73.0581
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 44161.33       3412.77415     6851.39602     3543.442336   
+# C 4094.57904     43513.39       4360.13066     10069.82593   
+# G 10069.82593    4360.13066     43513.39       4094.57904    
+# T 3543.442336    6851.39602     3412.77415     44161.33      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.183995       0.0142191      0.0285458      0.0147635     
+# C 0.0170598      0.181295       0.0181662      0.0419552     
+# G 0.0419552      0.0181662      0.181295       0.0170598     
+# T 0.0147635      0.0285458      0.0142191      0.183995      
+
+# delExistCost: 500
+# insExistCost: 482
+# delExtendCost: 35
+# insExtendCost: 40
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     97   -130    -67   -133
+# C   -126     95   -114    -44
+# G    -44   -114     95   -126
+# T   -133    -67   -130     97
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.8032 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 120208.2
+# deletes: 2881.903
+# inserts: 2646.759
+# delOpens: 793.5497
+# insOpens: 835.0322
+# alignments: 659
+# mean delete size: 3.63166
+# mean insert size: 3.16965
+# matchProb: 0.981317
+# delOpenProb: 0.00647813
+# insOpenProb: 0.00681677
+# delExtendProb: 0.724644
+# insExtendProb: 0.684508
+
+# substitution percent identity: 72.7225
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 44245.79       3454.991526    6945.621463    3575.8415     
+# C 4198.666909    43180.87       4403.23506     10214.47932   
+# G 10214.47932    4403.23506     43180.87       4198.666909   
+# T 3575.8415      6945.621463    3454.991526    44245.79      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.184021       0.0143695      0.0288873      0.0148721     
+# C 0.0174625      0.179592       0.0183133      0.0424826     
+# G 0.0424826      0.0183133      0.179592       0.0174625     
+# T 0.0148721      0.0288873      0.0143695      0.184021      
+
+# delExistCost: 547
+# insExistCost: 525
+# delExtendCost: 29
+# insExtendCost: 34
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     97   -129    -65   -132
+# C   -123     95   -113    -42
+# G    -42   -113     95   -123
+# T   -132    -65   -129     97
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.0071 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 119991.2
+# deletes: 2856.657
+# inserts: 2539.9643
+# delOpens: 672.0408
+# insOpens: 712.7034
+# alignments: 655
+# mean delete size: 4.25072
+# mean insert size: 3.56384
+# matchProb: 0.983277
+# delOpenProb: 0.00550709
+# insOpenProb: 0.0058403
+# delExtendProb: 0.764746
+# insExtendProb: 0.719404
+
+# substitution percent identity: 72.4774
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 44054.45       3484.540841    6985.67467     3605.437095   
+# C 4252.745251    42931.59       4418.77188     10284.90857   
+# G 10284.90857    4418.77188     42931.59       4252.745251   
+# T 3605.437095    6985.67467     3484.540841    44054.45      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.183532       0.0145167      0.0291026      0.0150204     
+# C 0.0177171      0.178855       0.0184088      0.0428473     
+# G 0.0428473      0.0184088      0.178855       0.0177171     
+# T 0.0150204      0.0291026      0.0145167      0.183532      
+
+# delExistCost: 581
+# insExistCost: 554
+# delExtendCost: 24
+# insExtendCost: 30
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     97   -128    -64   -131
+# C   -122     95   -112    -41
+# G    -41   -112     95   -122
+# T   -131    -64   -128     97
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.2217 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 124174.6
+# deletes: 3561.495
+# inserts: 2833.3287
+# delOpens: 682.4338
+# insOpens: 723.0385
+# alignments: 661
+# mean delete size: 5.21881
+# mean insert size: 3.91864
+# matchProb: 0.983623
+# delOpenProb: 0.00540576
+# insOpenProb: 0.0057274
+# delExtendProb: 0.808386
+# insExtendProb: 0.74481
+
+# substitution percent identity: 72.008
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 45664.03       3739.579691    7443.312628    3945.02751    
+# C 4446.543797    43758.72       4575.62537     10611.64778   
+# G 10611.64778    4575.62537     43758.72       4446.543797   
+# T 3945.02751     7443.312628    3739.579691    45664.03      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.183856       0.0150565      0.0299688      0.0158837     
+# C 0.017903       0.176184       0.0184227      0.0427253     
+# G 0.0427253      0.0184227      0.176184       0.017903      
+# T 0.0158837      0.0299688      0.0150565      0.183856      
+
+# delExistCost: 603
+# insExistCost: 568
+# delExtendCost: 20
+# insExtendCost: 26
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     95   -125    -62   -127
+# C   -120     95   -110    -41
+# G    -41   -110     95   -120
+# T   -127    -62   -125     95
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.5756 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 126756.8
+# deletes: 4395.804
+# inserts: 3221.3369
+# delOpens: 684.8477
+# insOpens: 747.2761
+# alignments: 658
+# mean delete size: 6.41866
+# mean insert size: 4.31077
+# matchProb: 0.983771
+# delOpenProb: 0.00531516
+# insOpenProb: 0.00579968
+# delExtendProb: 0.844204
+# insExtendProb: 0.768023
+
+# substitution percent identity: 71.6832
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 46644.93       3922.769516    7750.60758     4178.775578   
+# C 4562.120526    44220.99       4707.20949     10773.02131   
+# G 10773.02131    4707.20949     44220.99       4562.120526   
+# T 4178.775578    7750.60758     3922.769516    46644.93      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.183989       0.0154732      0.0305719      0.016483      
+# C 0.0179951      0.174427       0.0185673      0.0424936     
+# G 0.0424936      0.0185673      0.174427       0.0179951     
+# T 0.016483       0.0305719      0.0154732      0.183989      
+
+# delExistCost: 604
+# insExistCost: 578
+# delExtendCost: 20
+# insExtendCost: 24
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     95   -123    -61   -125
+# C   -120     95   -109    -41
+# G    -41   -109     95   -120
+# T   -125    -61   -123     95
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.081 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 130658
+# deletes: 4708.407
+# inserts: 3600.308
+# delOpens: 729.8578
+# insOpens: 796.2269
+# alignments: 665
+# mean delete size: 6.45113
+# mean insert size: 4.52171
+# matchProb: 0.9835
+# delOpenProb: 0.00549385
+# insOpenProb: 0.00599342
+# delExtendProb: 0.844988
+# insExtendProb: 0.778845
+
+# substitution percent identity: 71.2902
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 48144.03       4167.368776    8186.691052    4503.657775   
+# C 4732.023638    45020.49       4868.69175     11060.53009   
+# G 11060.53009    4868.69175     45020.49       4732.023638   
+# T 4503.657775    8186.691052    4167.368776    48144.03      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.184201       0.0159445      0.0313226      0.0172312     
+# C 0.0181049      0.17225        0.0186278      0.042318      
+# G 0.042318       0.0186278      0.17225        0.0181049     
+# T 0.0172312      0.0313226      0.0159445      0.184201      
+
+# delExistCost: 601
+# insExistCost: 581
+# delExtendCost: 20
+# insExtendCost: 22
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     94   -121    -59   -122
+# C   -119     95   -107    -41
+# G    -41   -107     95   -119
+# T   -122    -59   -121     94
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.2949 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 135232.2
+# deletes: 5146.066
+# inserts: 4205.161
+# delOpens: 803.7931
+# insOpens: 879.3149
+# alignments: 670
+# mean delete size: 6.40223
+# mean insert size: 4.78232
+# matchProb: 0.98289
+# delOpenProb: 0.0058421
+# insOpenProb: 0.00639101
+# delExtendProb: 0.843804
+# insExtendProb: 0.790896
+
+# substitution percent identity: 70.8282
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 49861.04       4412.44077     8648.40483     4863.524143   
+# C 4984.53325     45933.65       5076.38488     11469.39792   
+# G 11469.39792    5076.38488     45933.65       4984.53325    
+# T 4863.524143    8648.40483     4412.44077     49861.04      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.18433        0.0163122      0.0319721      0.0179798     
+# C 0.0184272      0.169811       0.0187668      0.0424009     
+# G 0.0424009      0.0187668      0.169811       0.0184272     
+# T 0.0179798      0.0319721      0.0163122      0.18433       
+
+# delExistCost: 596
+# insExistCost: 581
+# delExtendCost: 20
+# insExtendCost: 21
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     92   -119    -57   -119
+# C   -117     95   -106    -41
+# G    -41   -106     95   -117
+# T   -119    -57   -119     92
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.5894 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 135939.2
+# deletes: 5203.83
+# inserts: 4326.301
+# delOpens: 813.6515
+# insOpens: 877.8569
+# alignments: 666
+# mean delete size: 6.39565
+# mean insert size: 4.92825
+# matchProb: 0.982946
+# delOpenProb: 0.00588333
+# insOpenProb: 0.00634759
+# delExtendProb: 0.843644
+# insExtendProb: 0.797088
+
+# substitution percent identity: 70.6724
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 50102.12       4479.147613    8778.18097     4973.684267   
+# C 5032.80341     45978.42       5115.63159     11492.08002   
+# G 11492.08002    5115.63159     45978.42       5032.80341    
+# T 4973.684267    8778.18097     4479.147613    50102.12      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.184264       0.0164733      0.0322841      0.0182921     
+# C 0.0185095      0.169098       0.0188141      0.0422652     
+# G 0.0422652      0.0188141      0.169098       0.0185095     
+# T 0.0182921      0.0322841      0.0164733      0.184264      
+
+# delExistCost: 595
+# insExistCost: 586
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     92   -118    -57   -118
+# C   -116     95   -105    -41
+# G    -41   -105     95   -116
+# T   -118    -57   -118     92
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.9821 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 141916.7
+# deletes: 5781.045
+# inserts: 5134.159
+# delOpens: 907.7267
+# insOpens: 985.3409
+# alignments: 674
+# mean delete size: 6.36871
+# mean insert size: 5.21054
+# matchProb: 0.982226
+# delOpenProb: 0.00628251
+# insOpenProb: 0.00681969
+# delExtendProb: 0.842982
+# insExtendProb: 0.808081
+
+# substitution percent identity: 70.197
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 52556.22       4833.167657    9378.09731     5466.897884   
+# C 5326.63373     47078.04       5340.8667      11955.3393    
+# G 11955.3393     5340.8667      47078.04       5326.63373    
+# T 5466.897884    9378.09731     4833.167657    52556.22      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185142       0.017026       0.0330365      0.0192584     
+# C 0.0187643      0.165843       0.0188144      0.0421155     
+# G 0.0421155      0.0188144      0.165843       0.0187643     
+# T 0.0192584      0.0330365      0.017026       0.185142      
+
+# delExistCost: 589
+# insExistCost: 582
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     91   -115    -55   -115
+# C   -114     95   -103    -41
+# G    -41   -103     95   -114
+# T   -115    -55   -115     91
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.5137 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 146797.2
+# deletes: 6280.426
+# inserts: 5626.331
+# delOpens: 1000.2109
+# insOpens: 1074.3945
+# alignments: 677
+# mean delete size: 6.2791
+# mean insert size: 5.23675
+# matchProb: 0.981594
+# delOpenProb: 0.00668815
+# insOpenProb: 0.00718419
+# delExtendProb: 0.840742
+# insExtendProb: 0.809042
+
+# substitution percent identity: 69.7229
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 54320.77       5135.553611    9882.57909     5879.52776    
+# C 5616.18877     48029.23       5553.96168     12377.50997   
+# G 12377.50997    5553.96168     48029.23       5616.18877    
+# T 5879.52776     9882.57909     5135.553611    54320.77      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185022       0.0174922      0.0336611      0.0200263     
+# C 0.0191293      0.163593       0.0189174      0.0421591     
+# G 0.0421591      0.0189174      0.163593       0.0191293     
+# T 0.0200263      0.0336611      0.0174922      0.185022      
+
+# delExistCost: 583
+# insExistCost: 577
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     90   -113    -54   -113
+# C   -113     95   -102    -41
+# G    -41   -102     95   -113
+# T   -113    -54   -113     90
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.5155 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 149541.1
+# deletes: 6721.579
+# inserts: 6093.016
+# delOpens: 1067.9251
+# insOpens: 1144.2739
+# alignments: 673
+# mean delete size: 6.29405
+# mean insert size: 5.32479
+# matchProb: 0.981065
+# delOpenProb: 0.00700613
+# insOpenProb: 0.00750701
+# delExtendProb: 0.84112
+# insExtendProb: 0.812199
+
+# substitution percent identity: 69.449
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 55477.98       5364.782615    10186.19851    6166.74624    
+# C 5763.84227     48382.2        5652.51478     12554.51943   
+# G 12554.51943    5652.51478     48382.2        5763.84227    
+# T 6166.74624     10186.19851    5364.782615    55477.98      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185485       0.0179366      0.0340564      0.0206178     
+# C 0.0192708      0.161761       0.0188986      0.0419747     
+# G 0.0419747      0.0188986      0.161761       0.0192708     
+# T 0.0206178      0.0340564      0.0179366      0.185485      
+
+# delExistCost: 579
+# insExistCost: 573
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -111    -53   -111
+# C   -112     95   -101    -41
+# G    -41   -101     95   -112
+# T   -111    -53   -111     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.4778 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 150562.6
+# deletes: 6866.356
+# inserts: 6258.511
+# delOpens: 1100.4583
+# insOpens: 1169.2414
+# alignments: 668
+# mean delete size: 6.23954
+# mean insert size: 5.35263
+# matchProb: 0.980856
+# delOpenProb: 0.00716905
+# insOpenProb: 0.00761714
+# delExtendProb: 0.839732
+# insExtendProb: 0.813176
+
+# substitution percent identity: 69.2717
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 55896.39       5468.128144    10352.36825    6311.12629    
+# C 5826.75008     48416.03       5718.43974     12595.20766   
+# G 12595.20766    5718.43974     48416.03       5826.75008    
+# T 6311.12629     10352.36825    5468.128144    55896.39      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185598       0.0181564      0.034374       0.0209554     
+# C 0.0193471      0.16076        0.0189875      0.0418211     
+# G 0.0418211      0.0189875      0.16076        0.0193471     
+# T 0.0209554      0.034374       0.0181564      0.185598      
+
+# delExistCost: 577
+# insExistCost: 572
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -110    -52   -110
+# C   -111     95   -100    -41
+# G    -41   -100     95   -111
+# T   -110    -52   -110     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.0902 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 151944
+# deletes: 6850.754
+# inserts: 6182.123
+# delOpens: 1102.3064
+# insOpens: 1166.5962
+# alignments: 678
+# mean delete size: 6.21493
+# mean insert size: 5.29928
+# matchProb: 0.980968
+# delOpenProb: 0.00711662
+# insOpenProb: 0.00753168
+# delExtendProb: 0.839097
+# insExtendProb: 0.811295
+
+# substitution percent identity: 69.2268
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 56118.92       5521.61928     10445.19675    6358.59526    
+# C 5899.58794     49076.37       5811.00696     12726.25543   
+# G 12726.25543    5811.00696     49076.37       5899.58794    
+# T 6358.59526     10445.19675    5521.61928     56118.92      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.184653       0.0181683      0.0343688      0.0209223     
+# C 0.019412       0.161481       0.0191205      0.0418744     
+# G 0.0418744      0.0191205      0.161481       0.019412      
+# T 0.0209223      0.0343688      0.0181683      0.184653      
+
+# delExistCost: 578
+# insExistCost: 573
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -110    -52   -110
+# C   -111     94   -100    -41
+# G    -41   -100     94   -111
+# T   -110    -52   -110     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.0738 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 149766.3
+# deletes: 6397.51
+# inserts: 5738.151
+# delOpens: 1029.6009
+# insOpens: 1092.6169
+# alignments: 673
+# mean delete size: 6.21358
+# mean insert size: 5.25175
+# matchProb: 0.981672
+# delOpenProb: 0.00674871
+# insOpenProb: 0.00716176
+# delExtendProb: 0.839062
+# insExtendProb: 0.809587
+
+# substitution percent identity: 69.3199
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 55487.45       5407.184251    10270.92749    6243.55226    
+# C 5798.38726     48324.38       5685.76571     12539.95021   
+# G 12539.95021    5685.76571     48324.38       5798.38726    
+# T 6243.55226     10270.92749    5407.184251    55487.45      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185258       0.0180531      0.0342918      0.0208455     
+# C 0.0193592      0.161342       0.0189832      0.0418675     
+# G 0.0418675      0.0189832      0.161342       0.0193592     
+# T 0.0208455      0.0342918      0.0180531      0.185258      
+
+# delExistCost: 583
+# insExistCost: 577
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -111    -52   -110
+# C   -111     95   -100    -41
+# G    -41   -100     95   -111
+# T   -110    -52   -111     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.7431 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 149919.2
+# deletes: 6402.277
+# inserts: 5739.02
+# delOpens: 1022.2565
+# insOpens: 1092.5691
+# alignments: 676
+# mean delete size: 6.26289
+# mean insert size: 5.25278
+# matchProb: 0.981718
+# delOpenProb: 0.00669406
+# insOpenProb: 0.00715449
+# delExtendProb: 0.840329
+# insExtendProb: 0.809624
+
+# substitution percent identity: 69.3094
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 55364.87       5408.225827    10283.1342     6236.51925    
+# C 5814.55136     48543.16       5712.81574     12555.77349   
+# G 12555.77349    5712.81574     48543.16       5814.55136    
+# T 6236.51925     10283.1342     5408.225827    55364.87      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.184649       0.0180372      0.0342956      0.0207996     
+# C 0.0193923      0.161898       0.019053       0.0418752     
+# G 0.0418752      0.019053       0.161898       0.0193923     
+# T 0.0207996      0.0342956      0.0180372      0.184649      
+
+# delExistCost: 583
+# insExistCost: 577
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -111    -52   -110
+# C   -111     95   -100    -41
+# G    -41   -100     95   -111
+# T   -110    -52   -111     89
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.8765 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 153674.9
+# deletes: 7043.56
+# inserts: 6465.339
+# delOpens: 1128.5381
+# insOpens: 1202.3691
+# alignments: 672
+# mean delete size: 6.24131
+# mean insert size: 5.37717
+# matchProb: 0.980828
+# delOpenProb: 0.00720288
+# insOpenProb: 0.0076741
+# delExtendProb: 0.839777
+# insExtendProb: 0.814028
+
+# substitution percent identity: 68.9898
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 57085.69       5676.003974    10694.83532    6596.08756    
+# C 6004.18286     48941.75       5858.07428     12828.98241   
+# G 12828.98241    5858.07428     48941.75       6004.18286    
+# T 6596.08756     10694.83532    5676.003974    57085.69      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185722       0.0184663      0.0347945      0.0214597     
+# C 0.019534       0.159227       0.0190586      0.0417377     
+# G 0.0417377      0.0190586      0.159227       0.019534      
+# T 0.0214597      0.0347945      0.0184663      0.185722      
+
+# delExistCost: 577
+# insExistCost: 571
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -109    -51   -109
+# C   -110     95    -99    -41
+# G    -41    -99     95   -110
+# T   -109    -51   -109     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.8375 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 158080.9
+# deletes: 7503.742
+# inserts: 7034.563
+# delOpens: 1218.0645
+# insOpens: 1300.906
+# alignments: 677
+# mean delete size: 6.16038
+# mean insert size: 5.40743
+# matchProb: 0.980177
+# delOpenProb: 0.00755258
+# insOpenProb: 0.00806624
+# delExtendProb: 0.837672
+# insExtendProb: 0.815069
+
+# substitution percent identity: 68.7251
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 58625.79       5934.092406    11132.51303    6903.39809    
+# C 6224.98106     50014.01       6046.87053     13197.10863   
+# G 13197.10863    6046.87053     50014.01       6224.98106    
+# T 6903.39809     11132.51303    5934.092406    58625.79      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185432       0.0187694      0.0352119      0.0218353     
+# C 0.0196895      0.158193       0.0191261      0.0417422     
+# G 0.0417422      0.0191261      0.158193       0.0196895     
+# T 0.0218353      0.0352119      0.0187694      0.185432      
+
+# delExistCost: 572
+# insExistCost: 566
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     87   -108    -51   -108
+# C   -109     94    -98    -41
+# G    -41    -98     94   -109
+# T   -108    -51   -108     87
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.38 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 153841.3
+# deletes: 6929.768
+# inserts: 6413.287
+# delOpens: 1122.5128
+# insOpens: 1200.6614
+# alignments: 676
+# mean delete size: 6.17344
+# mean insert size: 5.34146
+# matchProb: 0.980871
+# delOpenProb: 0.00715699
+# insOpenProb: 0.00765525
+# delExtendProb: 0.838016
+# insExtendProb: 0.812785
+
+# substitution percent identity: 69.0305
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 56875.24       5665.965093    10668.86902    6541.73846    
+# C 6004.41352     49325.69       5890.78517     12873.67927   
+# G 12873.67927    5890.78517     49325.69       6004.41352    
+# T 6541.73846     10668.86902    5665.965093    56875.24      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.184844       0.0184144      0.0346738      0.0212606     
+# C 0.0195143      0.160308       0.019145       0.0418394     
+# G 0.0418394      0.019145       0.160308       0.0195143     
+# T 0.0212606      0.0346738      0.0184144      0.184844      
+
+# delExistCost: 577
+# insExistCost: 571
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -109    -52   -109
+# C   -110     94    -99    -41
+# G    -41    -99     94   -110
+# T   -109    -52   -109     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.6016 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 150600.8
+# deletes: 6632.842
+# inserts: 6033.751
+# delOpens: 1065.8234
+# insOpens: 1135.6317
+# alignments: 667
+# mean delete size: 6.22321
+# mean insert size: 5.31312
+# matchProb: 0.981303
+# delOpenProb: 0.00694482
+# insOpenProb: 0.00739969
+# delExtendProb: 0.839311
+# insExtendProb: 0.811787
+
+# substitution percent identity: 69.1715
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 55862.67       5509.949021    10386.3082     6347.3686     
+# C 5856.82204     48318.05       5739.74801     12591.3213    
+# G 12591.3213     5739.74801     48318.05       5856.82204    
+# T 6347.3686      10386.3082     5509.949021    55862.67      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185452       0.0182918      0.0344803      0.0210719     
+# C 0.0194434      0.160405       0.0190547      0.0418005     
+# G 0.0418005      0.0190547      0.160405       0.0194434     
+# T 0.0210719      0.0344803      0.0182918      0.185452      
+
+# delExistCost: 580
+# insExistCost: 574
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -110    -52   -110
+# C   -110     95    -99    -41
+# G    -41    -99     95   -110
+# T   -110    -52   -110     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t91.2146 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 151622.4
+# deletes: 6765.56
+# inserts: 6128.063
+# delOpens: 1084.5143
+# insOpens: 1153.9356
+# alignments: 675
+# mean delete size: 6.23833
+# mean insert size: 5.31058
+# matchProb: 0.981141
+# delOpenProb: 0.00701784
+# insOpenProb: 0.00746706
+# delExtendProb: 0.839701
+# insExtendProb: 0.811697
+
+# substitution percent identity: 69.1941
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 55965.67       5517.929189    10428.14452    6352.05193    
+# C 5906.03595     48961.32       5817.46961     12692.88454   
+# G 12692.88454    5817.46961     48961.32       5906.03595    
+# T 6352.05193     10428.14452    5517.929189    55965.67      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.184533       0.018194       0.0343842      0.0209443     
+# C 0.0194737      0.161438       0.0191817      0.0418516     
+# G 0.0418516      0.0191817      0.161438       0.0194737     
+# T 0.0209443      0.0343842      0.018194       0.184533      
+
+# delExistCost: 579
+# insExistCost: 573
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     88   -110    -52   -110
+# C   -110     94   -100    -41
+# G    -41   -100     94   -110
+# T   -110    -52   -110     88
+
+# lastal -j7 -D1e9 -S1 -P32 -t90.1676 -p- lepOcu1/last/lepOcu1-uMAM8 /tmp/580442.1.all.q/tmppdm5z3
+
+# aligned letter pairs: 149772.1
+# deletes: 6381.927
+# inserts: 5725.498
+# delOpens: 1022.2189
+# insOpens: 1091.125
+# alignments: 674
+# mean delete size: 6.24321
+# mean insert size: 5.24733
+# matchProb: 0.981723
+# delOpenProb: 0.00670042
+# insOpenProb: 0.00715208
+# delExtendProb: 0.839826
+# insExtendProb: 0.809427
+
+# substitution percent identity: 69.3061
+
+# count matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 55419.84       5415.325274    10280.39204    6230.40403    
+# C 5815.41073     48385.26       5703.37239     12527.78393   
+# G 12527.78393    5703.37239     48385.26       5815.41073    
+# T 6230.40403     10280.39204    5415.325274    55419.84      
+
+# probability matrix (query letters = columns, reference letters = rows):
+#   A              C              G              T             
+# A 0.185007       0.0180779      0.0343188      0.0207988     
+# C 0.0194135      0.161523       0.0190394      0.0418212     
+# G 0.0418212      0.0190394      0.161523       0.0194135     
+# T 0.0207988      0.0343188      0.0180779      0.185007      
+
+# delExistCost: 583
+# insExistCost: 577
+# delExtendCost: 20
+# insExtendCost: 20
+
+# score matrix (query letters = columns, reference letters = rows):
+#        A      C      G      T
+# A     89   -111    -52   -110
+# C   -111     95   -100    -41
+# G    -41   -100     95   -111
+# T   -110    -52   -111     89
+
+#last -t4.15182
+#last -a 29
+#last -A 29
+#last -b 1
+#last -B 1
+#last -S 1
+# score matrix (query letters = columns, reference letters = rows):
+       A      C      G      T
+A      4     -6     -3     -6
+C     -6      5     -5     -2
+G     -2     -5      5     -6
+T     -6     -3     -6      4
