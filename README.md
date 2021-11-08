@@ -13,7 +13,7 @@ The `2021` directory has various alignments of these genomes:
 | Bfl_VNyyK     | lancelet   | [NCBI][] |                              |
 | calMil1       | chimaera   | [UCSC][] |                              |
 | chrPic3.0.3   | turtle     | [NCBI][] | Chrysemys_picta_bellii-3.0.3 |
-| hg38          | human      | [UCSC][] |                              |
+| hg38          | human      | [UCSC][] | hg38.analysisSet             |
 | kPetMar1      | lamprey    | [NCBI][] | kPetMar1.pri                 |
 | latCha1       | coelacanth | [UCSC][] |                              |
 | lepOcu1       | gar        | [NCBI][] | LepOcu1                      |
