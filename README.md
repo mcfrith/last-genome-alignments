@@ -36,13 +36,16 @@ They can be replicated by running LAST version >= 1243 like this:
   `lastal` command use much time and memory, e.g. several days and
   hundreds of gigabytes.
 
-* You can use the `lastal -i` option to trade off multi-threading and
-  memory use (with no effect on results), see
+* You can trade off multi-threading and memory use (with no effect on
+  results), see
   [here](https://gitlab.com/mcfrith/last/-/blob/main/doc/last-parallel.rst).
 
 ## 2017 alignments
 
 **Warning:** these recipes were for an older version of LAST.
+
+* Since LAST version 1205, `-R01` has no effect and can be omitted
+  (because it's the default).
 
 * For LAST version >= 1180, it's best to add option `-fMAF+` to the
   first (many-to-one) `last-split`, as done
