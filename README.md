@@ -19,13 +19,13 @@ The `2021` directory has various alignments of these genomes:
 | lepOcu1       | gar        | [NCBI][] | LepOcu1                      |
 | xenTro10      | frog       | [NCBI][] | UCB_Xtro_10.0                |
 
-They can be replicated by running LAST version >= 1243 like this:
+They can be replicated by running LAST version >= 1387 like this:
 
     lastdb -P8 -uMAM8 myDB genome1.fa
 
     last-train -P8 --revsym -D1e9 --sample-number=5000 myDB genome2.fa > my.train
 
-    lastal -P8 -D1e9 -m100 -p my.train myDB genome2.fa | last-split -fMAF+ > many-to-one.maf
+    lastal -P8 -D1e9 -m100 --split-f=MAF+ -p my.train myDB genome2.fa > many-to-one.maf
 
     last-split -r many-to-one.maf | last-postmask > out.maf
 
@@ -48,9 +48,8 @@ They can be replicated by running LAST version >= 1243 like this:
   (because it's the default).
 
 * For LAST version >= 1180, it's best to add option `-fMAF+` to the
-  first (many-to-one) `last-split`, as done
-  [here](https://gitlab.com/mcfrith/last/-/blob/main/doc/last-cookbook.rst).
-  (In older versions, `-fMAF+` was the default.)
+  first (many-to-one) `last-split`.  (In older versions, `-fMAF+` was
+  the default.)
 
 * Since LAST version 983, `last-split` option `-m1` has no effect and
   can be omitted (because it's the default).
