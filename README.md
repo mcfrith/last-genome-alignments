@@ -3,6 +3,22 @@
 Here are some pair-wise genome alignments made with
 [LAST](https://gitlab.com/mcfrith/last).
 
+## 2022 alignments
+
+The `2022` directory has various alignments of these genomes:
+
+| Genome name     | Animal     | Source   | Assembly name (if different) |
+|-----------------|------------|----------|------------------------------|
+| allMis28112v4   | alligator  | [NCBI][] | ASM28112v4                   |
+| cerSim1         | rhinoceros | [UCSC][] |                              |
+| chrPic3.0.3     | turtle     | [NCBI][] | Chrysemys_picta_bellii-3.0.3 |
+| equCab3         | horse      | [UCSC][] |                              |
+| hg38            | human      | [UCSC][] | hg38.analysisSet             |
+| mOrnAna1.pri.v4 | platypus   | [NCBI][] |                              |
+
+They were made with LAST version 1411, using the recipe below under
+"2021 alignments".
+
 ## 2021 alignments
 
 The `2021` directory has various alignments of these genomes:
