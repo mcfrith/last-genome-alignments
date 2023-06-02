@@ -3,6 +3,76 @@
 Here are some pair-wise genome alignments made with
 [LAST](https://gitlab.com/mcfrith/last).
 
+## 2023 alignments
+
+The `2023` directory has alignments of these genomes:
+
+| Code   | Phylum       | Animal              | Scientific name                 | Genome                   |
+|--------|--------------|---------------------|---------------------------------|--------------------------|
+| helRob | annelid      | jawless leech       | *Helobdella robusta*            | GCF_000326865.1          |
+| hirMed | annelid      | medicinal leech     | *Hirudo medicinalis*            | GCA_011800805.1          |
+| lamSat | annelid      | Satsuma tubeworm    | *Lamellibrachia satsuma*        | GCA_022478865.1          |
+| oweFus | annelid      | shingle tubeworm    | *Owenia fusiformis*             | GCA_903813345.2          |
+| armNas | arthropod    | woodlouse           | *Armadillidium nasatum*         | GCA_009176605.1          |
+| cenScu | arthropod    | scorpion            | *Centruroides sculpturatus*     | GCF_000671375.1          |
+| droMel | arthropod    | fruit fly           | *Drosophila melanogaster*       | GCF_000001215.4          |
+| gloMae | arthropod    | millipede           | *Glomeris maerens*              | GCA_023279145.1          |
+| homAme | arthropod    | lobster             | *Homarus americanus*            | GCF_018991925.1          |
+| limPol | arthropod    | horseshoe crab      | *Limulus polyphemus*            | GCF_000517525.1          |
+| macAtr | arthropod    | robber fly          | *Machimus atricapillus*         | GCA_933228815.1          |
+| strMar | arthropod    | centipede           | *Strigamia maritima*            | GCA_000239455.1          |
+| linAna | brachiopod   | shamisen shell      | *Lingula anatina*               | GCF_001039355.2          |
+| asyLuc | chordate     | Bahama lancelet     | *Asymmetron lucayanum*          | GCA_001663935.1          |
+| braFlo | chordate     | lancelet            | *Branchiostoma floridae*        | GCF_000003815.2          |
+| calMil | chordate     | chimaera            | *Callorhinchus milii*           | GCF_018977255.1          |
+| eptBur | chordate     | hagfish             | *Eptatretus burgeri*            | GCA_024346535.1          |
+| homSap | chordate     | human               | *Homo sapiens*                  | hg38_no_alt_analysis_set |
+| petMar | chordate     | lamprey             | *Petromyzon marinus*            | GCF_010993605.1          |
+| acrMil | cnidaria     | stony coral         | *Acropora millepora*            | GCF_013753865.1          |
+| actTen | cnidaria     | waratah anemone     | *Actinia tenebrosa*             | GCF_009602425.1          |
+| epiPla | cnidaria     | zoanthid            | *Epizoanthus planus*            | GCA_025388665.1          |
+| nemVec | cnidaria     | starlet sea anemone | *Nematostella vectensis*        | GCF_932526225.1          |
+| horCal | ctenophore   | sea gooseberry      | *Hormiphora californensis*      | GCA_020137815.1          |
+| mneLei | ctenophore   | sea walnut          | *Mnemiopsis leidyi*             | GCA_000226015.1          |
+| apoJap | echinoderm   | sea cucumber        | *Apostichopus japonicus*        | GCA_002754855.1          |
+| strPur | echinoderm   | sea urchin          | *Strongylocentrotus purpuratus* | GCF_000002235.5          |
+| ptyFla | hemichordate | Hawaiian acorn worm | *Ptychodera flava*              | GCA_001465055.1          |
+| sacKow | hemichordate | acorn worm          | *Saccoglossus kowalevskii*      | GCF_000003605.2          |
+| aplCal | mollusc      | sea hare            | *Aplysia californica*           | GCF_000002075.1          |
+| craGig | mollusc      | oyster              | *Crassostrea gigas*             | GCF_902806645.1          |
+| halRuf | mollusc      | abalone             | *Haliotis rufescens*            | GCF_023055435.1          |
+| limBul | mollusc      | sea butterfly       | *Limacina bulimoides*           | GCA_009866985.1          |
+| mizYes | mollusc      | scallop             | *Mizuhopecten yessoensis*       | GCF_002113885.1          |
+| octBim | mollusc      | octopus             | *Octopus bimaculoides*          | GCF_001194135.2          |
+| phoLin | mollusc      | top snail           | *Phorcus lineatus*              | GCA_921293015.1          |
+| watSci | mollusc      | firefly squid       | *Watasenia scintillans*         | GCA_015471945.1          |
+| phoOva | phoronid     | horseshoe worm      | *Phoronis ovalis*               | GCA_028565635.1          |
+
+The alignments were made with LAST version 1453, like this:
+
+    lastdb -P8 -uMAM8 -c myDB genome1.fa
+
+    last-train -P8 --revsym -D1e9 --sample-number=5000 myDB genome2.fa > my.train
+
+    lastal -P8 -D1e9 -m100 --split-f=MAF+ -p my.train myDB genome2.fa > many-to-one.maf
+
+    last-split -r many-to-one.maf > one-to-one.maf
+
+This is currently the recommended way to compare distantly-related
+genomes, where most of the DNA lacks similarity.
+
+* `-P8` makes it faster by using 8 threads: adjust as suitable for
+  your computer.  This has no effect on the results.
+
+* `-uMAM8` and `-m100` strive for high sensitivity, but use a lot of
+  memory and run time.  To go much faster, omit `-m100`.  To halve the
+  memory use and run time, change `MAM8` to `MAM4`.
+
+* `--sample-number=5000` makes `last-train` use more samples of
+  genome2, for fear that most of genome2 lacks similarity to genome1.
+  For the same reason, `-D1e9` is used with `last-train`, to avoid
+  weak chance similarities more strictly.
+
 ## 2022 alignments
 
 The `2022` directory has various alignments of these genomes:
